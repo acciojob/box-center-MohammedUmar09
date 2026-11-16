@@ -1,11 +1,19 @@
 /*  your css code here. If applicable */
+#container{
+position: relative;
+}
 #box{
 	width: 200px;
 	height: 200px;
 	background-color: lightblue;
 	border: 2px solid black;
 	color: purple;
-	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	line-height: 200px;
 	text-align: center;
-	 line-height: 200px;
+	
+	
 }
